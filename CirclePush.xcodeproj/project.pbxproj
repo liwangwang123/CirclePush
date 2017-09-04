@@ -13,6 +13,10 @@
 		81ACFC171F5D3257000B4D56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ACFC151F5D3257000B4D56 /* Main.storyboard */; };
 		81ACFC191F5D3257000B4D56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ACFC181F5D3257000B4D56 /* Assets.xcassets */; };
 		81ACFC1C1F5D3257000B4D56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ACFC1A1F5D3257000B4D56 /* LaunchScreen.storyboard */; };
+		81ACFC251F5D3430000B4D56 /* NavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ACFC241F5D3430000B4D56 /* NavigationControllerDelegate.m */; };
+		81ACFC281F5D348B000B4D56 /* CustomPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ACFC271F5D348B000B4D56 /* CustomPush.m */; };
+		81ACFC2B1F5D3D85000B4D56 /* center1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81ACFC291F5D3D85000B4D56 /* center1.png */; };
+		81ACFC2C1F5D3D85000B4D56 /* center2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81ACFC2A1F5D3D85000B4D56 /* center2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		81ACFC181F5D3257000B4D56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81ACFC1B1F5D3257000B4D56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81ACFC1D1F5D3257000B4D56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ACFC231F5D3430000B4D56 /* NavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationControllerDelegate.h; sourceTree = "<group>"; };
+		81ACFC241F5D3430000B4D56 /* NavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationControllerDelegate.m; sourceTree = "<group>"; };
+		81ACFC261F5D348B000B4D56 /* CustomPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPush.h; sourceTree = "<group>"; };
+		81ACFC271F5D348B000B4D56 /* CustomPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPush.m; sourceTree = "<group>"; };
+		81ACFC291F5D3D85000B4D56 /* center1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = center1.png; sourceTree = "<group>"; };
+		81ACFC2A1F5D3D85000B4D56 /* center2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = center2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				81ACFC101F5D3257000B4D56 /* AppDelegate.m */,
 				81ACFC121F5D3257000B4D56 /* ViewController.h */,
 				81ACFC131F5D3257000B4D56 /* ViewController.m */,
+				81ACFC231F5D3430000B4D56 /* NavigationControllerDelegate.h */,
+				81ACFC241F5D3430000B4D56 /* NavigationControllerDelegate.m */,
+				81ACFC261F5D348B000B4D56 /* CustomPush.h */,
+				81ACFC271F5D348B000B4D56 /* CustomPush.m */,
+				81ACFC291F5D3D85000B4D56 /* center1.png */,
+				81ACFC2A1F5D3D85000B4D56 /* center2.jpg */,
 				81ACFC151F5D3257000B4D56 /* Main.storyboard */,
 				81ACFC181F5D3257000B4D56 /* Assets.xcassets */,
 				81ACFC1A1F5D3257000B4D56 /* LaunchScreen.storyboard */,
@@ -138,6 +154,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81ACFC2B1F5D3D85000B4D56 /* center1.png in Resources */,
+				81ACFC2C1F5D3D85000B4D56 /* center2.jpg in Resources */,
 				81ACFC1C1F5D3257000B4D56 /* LaunchScreen.storyboard in Resources */,
 				81ACFC191F5D3257000B4D56 /* Assets.xcassets in Resources */,
 				81ACFC171F5D3257000B4D56 /* Main.storyboard in Resources */,
@@ -151,9 +169,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81ACFC251F5D3430000B4D56 /* NavigationControllerDelegate.m in Sources */,
 				81ACFC141F5D3257000B4D56 /* ViewController.m in Sources */,
 				81ACFC111F5D3257000B4D56 /* AppDelegate.m in Sources */,
 				81ACFC0E1F5D3257000B4D56 /* main.m in Sources */,
+				81ACFC281F5D348B000B4D56 /* CustomPush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AN74G8J783;
 				INFOPLIST_FILE = CirclePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eddy.www.CirclePush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AN74G8J783;
 				INFOPLIST_FILE = CirclePush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Eddy.www.CirclePush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
