@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z0M-G9-p0t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z0M-G9-p0t">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,11 +23,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44h-EF-fEu">
-                                <rect key="frame" x="329" y="30" width="40" height="40"/>
+                                <rect key="frame" x="334" y="30" width="35" height="40"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="2Eq-VE-5oQ"/>
-                                    <constraint firstAttribute="width" constant="40" id="Niy-YI-ogA"/>
                                 </constraints>
                                 <state key="normal" title="Push"/>
                                 <userDefinedRuntimeAttributes>
@@ -49,6 +48,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="44h-EF-fEu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Isp-aE-jss"/>
                             <constraint firstItem="44h-EF-fEu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="aeA-Ee-gSE"/>
                             <constraint firstItem="lgT-Qq-bD8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h0I-Jh-jky"/>
                             <constraint firstItem="lgT-Qq-bD8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="o33-1Q-aoF"/>
@@ -77,11 +77,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fcx-pA-kmI">
-                                <rect key="frame" x="329" y="30" width="40" height="40"/>
+                                <rect key="frame" x="339" y="30" width="30" height="40"/>
                                 <color key="backgroundColor" red="0.20392156859999999" green="0.74117647060000003" blue="0.14901960780000001" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="9Tu-wr-I9U"/>
-                                    <constraint firstAttribute="width" constant="40" id="FS4-Oa-T4b"/>
                                 </constraints>
                                 <state key="normal" title="Pop"/>
                                 <userDefinedRuntimeAttributes>
@@ -107,6 +106,7 @@
                             <constraint firstItem="Fcx-pA-kmI" firstAttribute="trailing" secondItem="qvq-Xq-XZB" secondAttribute="trailingMargin" constant="10" id="OCu-pY-g0S"/>
                             <constraint firstItem="Fcx-pA-kmI" firstAttribute="top" secondItem="2zL-3G-UIr" secondAttribute="bottom" constant="10" id="TGf-rL-InO"/>
                             <constraint firstItem="KuS-1c-z2o" firstAttribute="centerX" secondItem="qvq-Xq-XZB" secondAttribute="centerX" id="YMp-cd-zu1"/>
+                            <constraint firstItem="Fcx-pA-kmI" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qvq-Xq-XZB" secondAttribute="leadingMargin" id="zIe-Pu-QzI"/>
                         </constraints>
                     </view>
                     <connections>
@@ -123,7 +123,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="z0M-G9-p0t" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qie-Ir-Rfz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
