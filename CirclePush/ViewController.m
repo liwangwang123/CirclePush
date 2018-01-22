@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //版本2 修改了一点点
+    CALayer
 }
 
 - (IBAction)PopAction:(UIButton *)sender {
